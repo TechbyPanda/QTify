@@ -1,0 +1,25 @@
+.search-form {
+    height: 48px;
+    width: 564px;
+
+    &__input {
+        width: 90%;
+        padding: 14px 20px;
+        height: 100%;
+        border-radius: 8px 0px 0px 8px;
+        border: 1px solid $color-black;
+
+        &:focus {
+            outline: none;
+        }
+    }
+    
+    &__button {
+        border-radius: 0px 8px 8px 0px;
+        padding: 14px 20px;
+        height: 100%;
+        border: 1px solid $color-black;
+        border-left: none;
+        cursor: pointer;
+    }
+}
